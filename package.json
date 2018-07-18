@@ -1,0 +1,17 @@
+{
+  "name": "pattrn-party",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "npm run scss-compile",
+    "scss-compile": "node-sass -rw styles/styles.scss -o styles/styles.css",
+    "watch": "npm run scss-compile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.9.0"
+  }
+}
