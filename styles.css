@@ -127,7 +127,7 @@ header span {
   color: white;
   text-align: center;
   display: block;
-  margin: auto;
+  margin: 40px auto;
   background-color: #2F2235;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -169,6 +169,82 @@ header span {
   grid-column: 2 / 4;
 }
 
+/* Header */ 
+
+.header_bar {
+  width: 100%;
+  height: 100px;
+  background-color: #d1d2d3;
+  margin: auto;
+  text-align: center;
+}
+
+.header_bar img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+nav {
+  display: inline-block;
+  margin-left: 20px;
+  position: relative;
+  top: -30px;
+  width: 420px;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  color: #666;
+  margin-right: 3%;
+}
+
+input {
+  background-image: url(https://i.pinimg.com/originals/90/eb/33/90eb3356db7c9b3e826c6f6c26bd6e6c.png);
+  background-position: 5px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-color: #f2f3f2;
+  border: .25px solid #666;
+  height: 25px;
+  padding-left: 45px;
+  width: 75px;
+  margin-left: 3%;
+  position: relative;
+  top: -30px;
+}
+
+@media only screen and (max-width: 865px) {
+  .header_bar {
+    padding-top: 10px;
+    height: fit-content;
+  }
+  
+  .header_bar img {
+    display: block;
+    margin: auto;
+  }
+
+  nav {
+    display: block;
+    margin: 35px auto 10px;
+  }
+
+  ul li {
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+  }
+
+  input {
+    margin: auto;
+    width: 75%;
+  }
+}
+
 @media only screen and (max-width: 675px) {
   .accordion {
     width: 100%;
@@ -206,8 +282,9 @@ header span {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
   #theBrokenContainer {
     height: 750px;
   }
 }
+
