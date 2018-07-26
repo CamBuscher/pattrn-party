@@ -217,6 +217,10 @@ input {
   top: -30px;
 }
 
+.MENU_TEXT {
+  display: none;
+}
+
 @media only screen and (max-width: 865px) {
   .header_bar {
     padding-top: 10px;
@@ -228,15 +232,25 @@ input {
     margin: auto;
   }
 
+  .MENU_TEXT {
+  display: inherit;
+  float: right;
+  margin-top: -50px;
+  margin-right: 10%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
   nav {
-    display: block;
-    margin: 35px auto 10px;
+    display: inline-block;
+    margin: 20px auto;
+    max-width: 100%;
   }
 
   ul li {
     display: block;
-    width: 150px;
-    margin: 15px 0px 10px 76px;
+    width: 100%;
+    margin: 20px auto;
   }
 
   input {

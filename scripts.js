@@ -10,3 +10,14 @@ for (let i = 0; i < acc.length; i++) {
     } 
   });
 }
+
+$('.MENU_TEXT').click(() => {
+  console.log($('.headerNav').attr('style') === 'display: none')
+  if ($('.headerNav').attr('style') === 'display: none;') {
+    $('.headerNav').show(400)
+    $('.header-input').show(400)
+  } else {
+    $('.headerNav').hide(400)
+    $('.header-input').hide(400)
+  }
+})
