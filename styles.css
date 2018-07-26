@@ -177,6 +177,7 @@ header span {
   background-color: #d1d2d3;
   margin: auto;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .header_bar img {
@@ -219,6 +220,7 @@ input {
 
 .MENU_TEXT {
   display: none;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 865px) {
